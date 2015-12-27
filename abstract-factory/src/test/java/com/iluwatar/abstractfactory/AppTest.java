@@ -16,6 +16,7 @@ public class AppTest {
   public void setUp() {
     elfFactory = app.getElfKingdomFactory();
     orcFactory = app.getOrcKingdomFactory();
+    
   }
 
   @Test
