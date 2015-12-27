@@ -12,7 +12,7 @@ public class FishingBoat {
   }
 
   public void fish() {
-    System.out.println("fishing .....");
+    System.out.println("fishing ....");
   }
 
 }
