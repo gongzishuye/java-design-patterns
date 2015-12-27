@@ -46,6 +46,8 @@ public class App {
     return king;
   }
 
+  //此时king是final类型的，king不能变，但是king里面的属性是可以变的
+  //final多修饰的基本类型
   private void setKing(final King king) {
     this.king = king;
   }

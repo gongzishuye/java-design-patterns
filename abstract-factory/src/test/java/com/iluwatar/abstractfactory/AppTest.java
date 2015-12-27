@@ -1,10 +1,10 @@
 package com.iluwatar.abstractfactory;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-
 import org.junit.Before;
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class AppTest {
 
@@ -20,6 +20,7 @@ public class AppTest {
 
   @Test
   public void king() {
+    final King elfKing1 = elfFactory.createKing();
     final King elfKing = app.getKing(elfFactory);
     assertTrue(elfKing instanceof ElfKing);
     assertEquals(ElfKing.DESCRIPTION, elfKing.getDescription());
