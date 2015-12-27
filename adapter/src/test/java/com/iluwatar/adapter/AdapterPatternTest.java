@@ -12,6 +12,5 @@ public class AdapterPatternTest {
   public void testAdapter() {
     BattleShip battleShip = new BattleFishingBoat();
     battleShip.fire();
-
   }
 }
